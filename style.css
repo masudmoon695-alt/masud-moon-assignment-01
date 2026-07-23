@@ -125,5 +125,66 @@
 
 
 /* SPEAKER SHURU */
- 
+ .speaker-head {
+   padding-top: 80px;
+   text-align: center;
+   font-size: 56px;
+   font-weight: 700;
+   padding-bottom: 40px;
+ }
+
+ .speaker-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   max-width: 1320px;
+   gap: 30px;
+   margin: 80px auto;
+
+ }
+
+
+ .speaker-card {
+   background: #ffffffFF;
+   border: 1px solid #e5e7ebFF;
+   ;
+   border-radius: 12px;
+
+   padding-bottom: 20px;
+   overflow: hidden;
+
+ }
+
+ .speaker-card img {
+   width: 100%;
+   height: 350px;
+
+   display: block;
+
+
+ }
+
+ .speaker-info {
+   padding: 20px;
+ }
+
+ .speaker-info h5 {
+   color: #2563ebFF;
+   font-size: 12px;
+   font-weight: 600;
+   padding-bottom: 8px;
+ }
+
+ .speaker-info h2 {
+   font-size: 20px;
+   color: #0d1b2aFF;
+   font-weight: 700;
+   padding-bottom: 8px;
+ }
+
+ .speaker-info p {
+   color: #575757FF;
+   font-size: 14px;
+   font-weight: 400;
+
+ }
  /* SPEAKER SHESH */
