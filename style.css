@@ -1,0 +1,75 @@
+ * {
+   padding: 0px;
+   margin: 0px;
+   font-family: "Inter", sans-serif;
+
+ }
+
+
+
+ nav {
+
+   padding-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .container {
+   max-width: 1551px;
+   margin: auto;
+   padding-bottom: 20px;
+ }
+
+ .nav-list {
+   display: flex;
+   list-style: none;
+   font-size: 16px;
+   font-weight: 400;
+   list-style: none;
+   gap: 30px;
+   cursor: pointer;
+
+ }
+
+ .nav-list a{
+    text-decoration: none;
+    color: #575757FF;   
+}
+
+.nav-list a:hover{
+    color: lightblue;
+}
+
+ .common-btn {
+   background-color: #1D4ED8;
+   border-radius: 10px;
+   font-size: 16px;
+   font-weight: 700;
+   color: white;
+   padding: 10px 20px;
+   cursor: pointer;
+   width: 188px;
+   height: 48px;
+   
+
+ }
+ .common-btn:hover{
+  cursor: pointer;
+  background-color: rgb(95, 95, 216);
+ }
+
+
+
+ /* NAV BAR SHESH */
+
+ /* HERO BANNER SHURU */
+
+ /* HERO BANNER SHESH */
+
+
+
+
+/* SPEAKER SHURU */
+ 
+ /* SPEAKER SHESH */
