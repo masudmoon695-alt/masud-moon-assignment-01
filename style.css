@@ -65,7 +65,59 @@
 
  /* HERO BANNER SHURU */
 
- 
+  .hero-banner {
+
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/banner.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 800px;
+   width: 100%;
+
+ }
+
+ .hero-container {
+   padding-top: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   gap: 10px;
+   padding-bottom: 250px;
+
+
+   color: aliceblue;
+
+
+ }
+
+ .hero-button {
+
+   margin: 30px auto;
+   display: block;
+   font-weight: 700px;
+   font-size: 24px;
+   width: 282px;
+   ;
+   height: 74px;
+
+ }
+
+ .hero-banner h2 {
+   font-size: 80px;
+   font-weight: 700;
+ }
+
+ .hero-banner p {
+   padding-left: 28%;
+
+   font-size: 22px;
+   font-weight: 400;
+   height: 108px;
+   width: 829px;
+
+ }
+
 
  /* HERO BANNER SHESH */
 
