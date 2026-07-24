@@ -411,3 +411,70 @@ cursor: pointer;
     font-size: 16px;
     line-height: 1.6;
 }
+/* 
+footer shuru */
+.footer{
+  background-color: #0d1b2aFF;
+  padding: 50px 250px 30px;
+  margin-top: 80px;
+  
+}
+
+
+.logo img{
+    width: 180px;
+}
+
+.socials{
+    display: flex;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.socials img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    
+}
+.socials img:hover{
+    background-color: #1D4ED8;
+}
+
+
+.footer hr{
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.1);
+    margin: 30px 0;
+}
+
+
+
+
+
+.writing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left p{
+    color: #d1d5db;
+    font-size: 15px;
+}
+
+.right{
+    display: flex;
+    gap: 35px;
+}
+
+.right p{
+    color: #d1d5db;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.right p:hover{
+    color: #2563eb;
+}
