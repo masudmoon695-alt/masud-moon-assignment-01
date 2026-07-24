@@ -188,3 +188,169 @@
 
  }
  /* SPEAKER SHESH */
+
+ /* Pricing shuru */
+ .pricing{
+    max-width: 1400px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.pricing-head{
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.pricing-para{
+    color:#575757FF;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 370.66px;
+    height: 442px;
+
+    text-align: left;
+    
+
+    padding: 32px;
+    background: #ffffff;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.card p{
+  font-size: 13px;
+  font-weight: 600;
+  color: #888888FF;
+}
+
+.card h2{
+color: #0d1b2aFF;
+font-size: 44px;
+font-weight: 700;
+}
+
+.card h1{
+  color: #888888FF;
+  font-size: 13px;
+  font-weight: 400;
+}
+.card ul{ 
+  padding left:20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.new-button{
+
+font-size: 14px;
+font-weight: 600;
+
+border-radius: 8px;
+border: 1px solid #2563ebFF;
+width: 304.66px;
+height: 45px;
+background-color: transparent;
+text-decoration: none;
+display: block;
+margin: auto;
+cursor: pointer;
+
+}
+
+.new-button a{
+  text-decoration: none;
+  color: #2563ebFF;
+}
+
+.card-2{
+  width: 370.66px;
+    height: 442;
+    text-align: left;
+    
+
+    padding: 32px;
+    background:#0d1b2aFF;;
+
+    border: 1px solid #0d1b2aFF;;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-2 p{
+  color: #93c5fdFF;
+  font-size: 13px;
+  font-weight: 600;
+}
+.card-2 h2{
+  color: #ffffffFF;
+  font-size: 44px;
+  font-weight: 700;
+}
+.card-2 h1{
+color: #ffffff80;
+font-size: 13px;
+font-weight: 400;
+}
+/* .card ul{ 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+.card-2 ul{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #ffffffCC;;
+}
+.another-btn{
+  
+  font-size: 14px;
+font-weight: 600;
+
+border-radius: 8px;
+border: 1px solid #2563ebFF;
+width: 304.66px;
+height: 45px;
+
+background: #2563ebFF;
+display: block;
+margin: auto;
+cursor: pointer;
+}
+.another-btn a{
+  text-decoration: none;
+  color: #ffffffFF;
+}
+.another-btn:hover{
+  background-color: #5b7edb;
+}
+.card hr,
+.card-2 hr{
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin: 20px 0;
+}
