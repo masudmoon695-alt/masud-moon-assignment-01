@@ -312,13 +312,17 @@ font-size: 13px;
 font-weight: 400;
 }
 /
-.card-2 ul{
+.card-2 ul {
   padding-left: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: #ffffffCC;;
 }
+.card-2 li{
+    color: rgba(255, 255, 255, 0.8);
+}
+
 .another-btn{
   
   font-size: 14px;
